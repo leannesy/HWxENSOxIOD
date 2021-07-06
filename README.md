@@ -2,7 +2,7 @@
 
 This repository contains all the scripts necessary to produce the figures in the honours thesis:
 
-The Influence of Indian Ocean Dipole and El Niño-Southern Oscillation on Australian Heatwaves
+*The Influence of Indian Ocean Dipole and El Niño-Southern Oscillation on Australian Heatwaves*
 
 Author: **Leanne LEE**
 
@@ -62,9 +62,9 @@ The scripts in this folder were used to plot the figures by using the output fro
 
 - **[Fig1_trends.ipynb](https://github.com/leannesy/HWxENSOxIOD/blob/main/Fig1_trends.ipynb)**: Figure 1
 
-- **[Fig2_Bias_plot.ipynb](https://github.com/leannesy/HWxENSOxIOD/blob/main/Fig2_Bias_plot.ipynb):** Figure 2
+- **[Fig2_Bias_plot.ipynb](https://github.com/leannesy/HWxENSOxIOD/blob/main/Fig2_Bias_plot.ipynb):** Figure 2, Appendix B-E
 
-- **[Fig3_appendix_MkTrend.ipynb](https://github.com/leannesy/HWxENSOxIOD/blob/main/Fig3_appendix_MkTrend.ipynb)**
+- **[Fig3_appendix_MkTrend.ipynb](https://github.com/leannesy/HWxENSOxIOD/blob/main/Fig3_appendix_MkTrend.ipynb)** Figure 3
 
 - **[Fig4-7_IOD_Composite.ipynb](https://github.com/leannesy/HWxENSOxIOD/blob/main/Fig4-7_IOD_Composite.ipynb):** Figure 4-7, Appendix F-I, Appendix R
 
