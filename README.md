@@ -54,7 +54,7 @@ Calculate Nino3.4 from ACCESS[*4*] and HADISST(obs) [*1*] respectively.
 
 **[ehf_AGCD.sh,](https://github.com/leannesy/HWxENSOxIOD/blob/main/metrics/ehf_AGCD.sh) [ehf_Access.sh](https://github.com/leannesy/HWxENSOxIOD/blob/main/metrics/ehf_Access.sh):** 
 
-Calculate Excess Heat Factor (EHF), absolute index (EHI<sub>sig</sub>), daily event flag and three heatwave metrics (HWF, HWD, HWT) from AGCD[*1, 2*] and ACCESS [*5, 6*] respectively. These two scripts use the[ehfheatwaves](https://github.com/tammasloughran/ehfheatwaves) written by [Tammas Loughran](https://github.com/tammasloughran). 
+Calculate Excess Heat Factor (EHF), absolute index (EHI<sub>sig</sub>), daily event flag and three heatwave metrics (HWF, HWD, HWT) from AGCD[*1, 2*] and ACCESS [*5, 6*] respectively. These two scripts use the [ehfheatwaves](https://github.com/tammasloughran/ehfheatwaves) written by [Tammas Loughran](https://github.com/tammasloughran). 
 
 **[HWC_Calculation.ipynb](https://github.com/leannesy/HWxENSOxIOD/blob/main/metrics/HWC_Calculation.ipynb):** 
 
