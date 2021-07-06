@@ -9,6 +9,7 @@ Author: **Leanne LEE**
 Supervisors: **Sarah Perkins-Kirkpatrick, Annette Hirsch, Jatin Kala**
 
 ## Input files
+The following input files were access through National Computational Infrastructure (NCI) supercomputer gadi wtih the paths below. 
 
 ### Observation
 
@@ -40,42 +41,37 @@ Supervisors: **Sarah Perkins-Kirkpatrick, Annette Hirsch, Jatin Kala**
 
 The scripts in this folder were used for preprocessing the data and calculating DMI, Nino 3.4 and heatwave metrics. The corresponding inputs are shown in square brackets. 
 
-**[ACCESS_grid.txt](https://github.com/leannesy/HWxENSOxIOD/blob/main/metrics/ACCESS_grid.txt)**:   
+- **[ACCESS_grid.txt](https://github.com/leannesy/HWxENSOxIOD/blob/main/metrics/ACCESS_grid.txt):**
+This file is the grid information of ACCESS from *cdo griddes* [*5 or 6*]*.* This is used in the **[ehf_AGCD.sh](https://github.com/leannesy/HWxENSOxIOD/blob/main/metrics/ehf_AGCD.sh)** script 
 
-This file is the grid information of ACCESS from *cdo griddes* [*5 or 6*]*.* This is used in the **[ehf_AGCD.sh](https://github.com/leannesy/HWxENSOxIOD/blob/main/metrics/ehf_AGCD.sh)** script**.** 
-
-**[DMI_Access_1.sh,](https://github.com/leannesy/HWxENSOxIOD/blob/main/metrics/DMI_Access_1.sh) [DMI_HADISST.sh](https://github.com/leannesy/HWxENSOxIOD/blob/main/metrics/DMI_HADISST.sh)**: 
-
+- **[DMI_Access_1.sh,](https://github.com/leannesy/HWxENSOxIOD/blob/main/metrics/DMI_Access_1.sh) [DMI_HADISST.sh](https://github.com/leannesy/HWxENSOxIOD/blob/main/metrics/DMI_HADISST.sh)**: 
 Calculate DMI from ACCESS [*4*] and HADISST[*1*] respectively. 
 
-**[Nino_Access.sh,](https://github.com/leannesy/HWxENSOxIOD/blob/main/metrics/Nino_Access.sh) [Nino_obs.sh](https://github.com/leannesy/HWxENSOxIOD/blob/main/metrics/Nino_obs.sh):** 
-
+- **[Nino_Access.sh,](https://github.com/leannesy/HWxENSOxIOD/blob/main/metrics/Nino_Access.sh) [Nino_obs.sh](https://github.com/leannesy/HWxENSOxIOD/blob/main/metrics/Nino_obs.sh):** 
 Calculate Nino3.4 from ACCESS[*4*] and HADISST(obs) [*1*] respectively. 
 
-**[ehf_AGCD.sh,](https://github.com/leannesy/HWxENSOxIOD/blob/main/metrics/ehf_AGCD.sh) [ehf_Access.sh](https://github.com/leannesy/HWxENSOxIOD/blob/main/metrics/ehf_Access.sh):** 
-
+- **[ehf_AGCD.sh,](https://github.com/leannesy/HWxENSOxIOD/blob/main/metrics/ehf_AGCD.sh) [ehf_Access.sh](https://github.com/leannesy/HWxENSOxIOD/blob/main/metrics/ehf_Access.sh):** 
 Calculate Excess Heat Factor (EHF), absolute index (EHI<sub>sig</sub>), daily event flag and three heatwave metrics (HWF, HWD, HWT) from AGCD[*1, 2*] and ACCESS [*5, 6*] respectively. These two scripts use the [ehfheatwaves](https://github.com/tammasloughran/ehfheatwaves) written by [Tammas Loughran](https://github.com/tammasloughran). 
 
-**[HWC_Calculation.ipynb](https://github.com/leannesy/HWxENSOxIOD/blob/main/metrics/HWC_Calculation.ipynb):** 
-
+- **[HWC_Calculation.ipynb](https://github.com/leannesy/HWxENSOxIOD/blob/main/metrics/HWC_Calculation.ipynb):** 
 Calculate Cumulative heat (HWC) from AGCD and ACCESS [EHI<sub>sig</sub>, daily event flag from **[ehf_AGCD.sh,](https://github.com/leannesy/HWxENSOxIOD/blob/main/metrics/ehf_AGCD.sh) [ehf_Access.sh](https://github.com/leannesy/HWxENSOxIOD/blob/main/metrics/ehf_Access.sh)**]
 
 ## Scripts for plotting
 
 The scripts in this folder were used to plot the figures by using the output from the metrics folder. 
 
-**[Fig1_trends.ipynb](https://github.com/leannesy/HWxENSOxIOD/blob/main/Fig1_trends.ipynb)**: Figure 1
+- **[Fig1_trends.ipynb](https://github.com/leannesy/HWxENSOxIOD/blob/main/Fig1_trends.ipynb)**: Figure 1
 
-**[Fig2_Bias_plot.ipynb](https://github.com/leannesy/HWxENSOxIOD/blob/main/Fig2_Bias_plot.ipynb):** Figure 2
+- **[Fig2_Bias_plot.ipynb](https://github.com/leannesy/HWxENSOxIOD/blob/main/Fig2_Bias_plot.ipynb):** Figure 2
 
-**[Fig3_appendix_MkTrend.ipynb](https://github.com/leannesy/HWxENSOxIOD/blob/main/Fig3_appendix_MkTrend.ipynb)**
+- **[Fig3_appendix_MkTrend.ipynb](https://github.com/leannesy/HWxENSOxIOD/blob/main/Fig3_appendix_MkTrend.ipynb)**
 
-**[Fig4-7_IOD_Composite.ipynb](https://github.com/leannesy/HWxENSOxIOD/blob/main/Fig4-7_IOD_Composite.ipynb):** Figure 4-7, Appendix F-I, Appendix R
+- **[Fig4-7_IOD_Composite.ipynb](https://github.com/leannesy/HWxENSOxIOD/blob/main/Fig4-7_IOD_Composite.ipynb):** Figure 4-7, Appendix F-I, Appendix R
 
-**[Fig8-11_ENSO_Composite.ipynb](https://github.com/leannesy/HWxENSOxIOD/blob/main/Fig8-11_ENSO_Composite.ipynb):** Figure 8-11, Appendix J-M, Appendix S
+- **[Fig8-11_ENSO_Composite.ipynb](https://github.com/leannesy/HWxENSOxIOD/blob/main/Fig8-11_ENSO_Composite.ipynb):** Figure 8-11, Appendix J-M, Appendix S
 
-**[Fig12-15_ENSO&IOD_Composite.ipynb](https://github.com/leannesy/HWxENSOxIOD/blob/main/Fig12-15_ENSO%26IOD_Composite.ipynb):** Figure 12-15, Appendix N-Q, Appendix T
+- **[Fig12-15_ENSO&IOD_Composite.ipynb](https://github.com/leannesy/HWxENSOxIOD/blob/main/Fig12-15_ENSO%26IOD_Composite.ipynb):** Figure 12-15, Appendix N-Q, Appendix T
 
-**[Fig16-17_CompositeTables.ipynb](https://github.com/leannesy/HWxENSOxIOD/blob/main/Fig16-17_CompositeTables.ipynb)**
+- **[Fig16-17_CompositeTables.ipynb](https://github.com/leannesy/HWxENSOxIOD/blob/main/Fig16-17_CompositeTables.ipynb)**
 
-**[Appendix1.ipynb](https://github.com/leannesy/HWxENSOxIOD/blob/main/Appendix1.ipynb):** Appendix 1
+- **[Appendix1.ipynb](https://github.com/leannesy/HWxENSOxIOD/blob/main/Appendix1.ipynb):** Appendix 1
