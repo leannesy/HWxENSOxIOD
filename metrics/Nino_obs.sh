@@ -56,21 +56,3 @@ echo "4_detrend.nc"
 
 echo "finsh"
 
-
-
-#echo "#5"
-#6_5month running mean
-#cdo runmean,5 5c_anomalies.nc 6_runmean.nc
-#echo "${out_dir}/6_runmean.nc"
-
-#echo "#5"
-#8_standard deviation  
-#cdo selyear,1961/1990 6_runmean.nc 8a_selyear.nc
-#cdo timstd 8a_selyear.nc 8b_sd.nc
-#echo "${out_dir}/8b_sd.nc"
-
-
-#echo "#9"
-#9_normalise 
-#cdo div 6_runmean.nc 8b_sd.nc 9_norm.nc
-
