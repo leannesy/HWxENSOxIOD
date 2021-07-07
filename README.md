@@ -2,11 +2,14 @@
 
 This repository contains all the scripts necessary to produce the figures in the honours thesis:
 
-*The Influence of Indian Ocean Dipole and El Niño-Southern Oscillation on Australian Heatwaves*
+> *The Influence of Indian Ocean Dipole and El Niño-Southern Oscillation on Australian Heatwaves* 
 
 Author: **Leanne LEE**
 
 Supervisors: **Sarah Perkins-Kirkpatrick, Annette Hirsch, Jatin Kala**
+
+
+
 
 ## Input files
 The following input files were access through National Computational Infrastructure (NCI) supercomputer gadi wtih the paths below. 
@@ -37,6 +40,9 @@ The following input files were access through National Computational Infrastruct
 /g/data/fs38/publications/CMIP6/CMIP/CSIRO/ACCESS-ESM1-5/historical/r * i1p1f1/fx/sftlf/gn/latest/sftlf_fx_ACCESS-ESM1-5_historical_r * i1p1f1_gn.nc 
 (this land-sea mask is preprocessed by *cdo sellonlatbox,110,155,-10,-45*)
 
+
+
+
 ## Scripts in [Metrics](https://github.com/leannesy/HWxENSOxIOD/tree/main/metrics) folder
 
 The scripts in this folder were used for preprocessing the data and calculating DMI, Nino 3.4 and heatwave metrics. The corresponding inputs are shown in square brackets. 
@@ -55,6 +61,8 @@ Calculate Excess Heat Factor (EHF), absolute index (EHI<sub>sig</sub>), daily ev
 
 - **[HWC_Calculation.ipynb](https://github.com/leannesy/HWxENSOxIOD/blob/main/metrics/HWC_Calculation.ipynb):** 
 Calculate Cumulative heat (HWC) from AGCD and ACCESS [EHI<sub>sig</sub>, daily event flag from **[ehf_AGCD.sh,](https://github.com/leannesy/HWxENSOxIOD/blob/main/metrics/ehf_AGCD.sh) [ehf_Access.sh](https://github.com/leannesy/HWxENSOxIOD/blob/main/metrics/ehf_Access.sh)**]
+
+
 
 ## Scripts for plotting
 
