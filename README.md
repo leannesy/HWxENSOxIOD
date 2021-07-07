@@ -72,6 +72,6 @@ The scripts in this folder were used to plot the figures by using the output fro
 
 - **[Fig12-15_ENSO&IOD_Composite.ipynb](https://github.com/leannesy/HWxENSOxIOD/blob/main/Fig12-15_ENSO%26IOD_Composite.ipynb):** Figure 12-15, Appendix N-Q, Appendix T
 
-- **[Fig16-17_CompositeTables.ipynb](https://github.com/leannesy/HWxENSOxIOD/blob/main/Fig16-17_CompositeTables.ipynb)**
+- **[Fig16-17_CompositeTables.ipynb](https://github.com/leannesy/HWxENSOxIOD/blob/main/Fig16-17_CompositeTables.ipynb):** Table 1-2, Appendix U-X
 
 - **[Appendix1.ipynb](https://github.com/leannesy/HWxENSOxIOD/blob/main/Appendix1.ipynb):** Appendix 1
