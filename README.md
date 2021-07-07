@@ -14,10 +14,10 @@ The following input files were access through National Computational Infrastruct
 ### Observation
 
 1. **AGCD daily minimum temperature:**
-/g/data/zv2/agcd/v1/tmin/mean/r005/01day/agcd_v1_tmin_mean_r005_daily_*.nc
+/g/data/zv2/agcd/v1/tmin/mean/r005/01day/agcd_v1_tmin_mean_r005_daily_ * .nc
 
 2. **AGCD daily maximum temperature:**
-/g/data/zv2/agcd/v1/tmax/mean/r005/01day/agcd_v1_tmax_mean_r005_daily_*.nc
+/g/data/zv2/agcd/v1/tmax/mean/r005/01day/agcd_v1_tmax_mean_r005_daily_ * .nc
 
 3. **HadISST 1.1 monthly average sea surface temperature:**
 /g/data/ua8/HadISST/v1-1/HadISST_sst.nc
@@ -25,17 +25,17 @@ The following input files were access through National Computational Infrastruct
 ### ACCESS-ESM1-5
 
 4. **ACCESS monthly average sea surface temperature:** 
-/g/data/fs38/publications/CMIP6/CMIP/CSIRO/ACCESS-ESM1-5/historical/r1i1p1f1/Omon/tos/gn/files/*/tos_Omon_ACCESS-ESM1-5_historical_r*i1p1f1_gn_185001-201412.nc
+/g/data/fs38/publications/CMIP6/CMIP/CSIRO/ACCESS-ESM1-5/historical/r * 1i1p1f1/Omon/tos/gn/files/ * /tos_Omon_ACCESS-ESM1-5_historical_r * i1p1f1_gn_185001-201412.nc
 
 5. **ACCESS daily maximum temperature:** 
-/g/data/fs38/publications/CMIP6/CMIP/CSIRO/ACCESS-ESM1-5/historical/r*i1p1f1/day/tasmax/gn/latest/tasmax_day_ACCESS-ESM1-5_historical_r*i1p1f1_gn_*.nc
+/g/data/fs38/publications/CMIP6/CMIP/CSIRO/ACCESS-ESM1-5/historical/r * i1p1f1/day/tasmax/gn/latest/tasmax_day_ACCESS-ESM1-5_historical_r * i1p1f1_gn_ * .nc
 
 6. **ACCESS daily minimum temperature:** 
-/g/data/fs38/publications/CMIP6/CMIP/CSIRO/ACCESS-ESM1-5/historical/r*i1p1f1/day/tasmin/gn/latest/tasmin_day_ACCESS-ESM1-5_historical_r*i1p1f1_gn_*.nc
+/g/data/fs38/publications/CMIP6/CMIP/CSIRO/ACCESS-ESM1-5/historical/r * i1p1f1/day/tasmin/gn/latest/tasmin_day_ACCESS-ESM1-5_historical_r * i1p1f1_gn_ * .nc
 
 7. **ACCESS Land-sea mask:**
-/g/data/fs38/publications/CMIP6/CMIP/CSIRO/ACCESS-ESM1-5/historical/r1i1p1f1/fx/sftlf/gn/latest/sftlf_fx_ACCESS-ESM1-5_historical_r1i1p1f1_gn.nc 
-(this land-sea mask is preprocessed by *cdo sellonlatbox,110,155,-10,-45)*
+/g/data/fs38/publications/CMIP6/CMIP/CSIRO/ACCESS-ESM1-5/historical/r * i1p1f1/fx/sftlf/gn/latest/sftlf_fx_ACCESS-ESM1-5_historical_r * i1p1f1_gn.nc 
+(this land-sea mask is preprocessed by *cdo sellonlatbox,110,155,-10,-45*)
 
 ## Scripts in [Metrics](https://github.com/leannesy/HWxENSOxIOD/tree/main/metrics) folder
 
@@ -74,4 +74,4 @@ The scripts in this folder were used to plot the figures by using the output fro
 
 - **[Fig16-17_CompositeTables.ipynb](https://github.com/leannesy/HWxENSOxIOD/blob/main/Fig16-17_CompositeTables.ipynb):** Table 1-2, Appendix U-X
 
-- **[Appendix1.ipynb](https://github.com/leannesy/HWxENSOxIOD/blob/main/Appendix1.ipynb):** Appendix 1
+- **[Appendix1.ipynb](https://github.com/leannesy/HWxENSOxIOD/blob/main/Appendix1.ipynb):** Appendix A
