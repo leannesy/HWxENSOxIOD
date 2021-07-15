@@ -9,6 +9,10 @@ Author: **Leanne LEE**
 Supervisors: **Sarah Perkins-Kirkpatrick, Annette Hirsch, Jatin Kala**
 
 
+Cite as
+Lee, Leanne. (2021, July 15). Repository of Analysis Code for The Influence of Indian Ocean Dipole and El Niño-Southern Oscillation on Australian Heatwaves (Version v1.0.0). Zenodo. http://doi.org/10.5281/zenodo.5105313
+
+
 
 
 ## Input files
